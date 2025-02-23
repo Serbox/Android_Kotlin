@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PacmanGreen</string>
+    <string name="MyName">Juan Sebastian Henrnandez Reyes</string>
+    <string name="Texto1">Inicia una nueva aventura con PacmanGreen y descubre una nueva forma de ver el mundo.</string>
+    <string name="btnComenzar">Comienza</string>
+    <string name="btnRegistrar">Registrate</string>
+    <string name="TxtLogin">La aventura esta por iniciar, porfavor inicia sesion</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="btnRecuperar">Recupera tu contraseña</string>
+    <string name="btnGoogle">Ingresa con Google</string>
+    <string name="txtRegistrate">No tienes cuenta?</string>
+</resources>
