@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Negro"
+    android:background="@color/Morado_parcial"
     >
 
     <EditText
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.411"
-        app:srcCompat="@drawable/icono_login" />
+        app:srcCompat="@drawable/parcial_icon" />
 
     <ImageView
         android:id="@+id/icon_pg3"
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.061"
-        app:srcCompat="@drawable/_logo1" />
+        app:srcCompat="@drawable/parcial_logo" />
 
     <TextView
         android:id="@+id/NameApp_pg3"
@@ -81,11 +81,12 @@
         app:layout_constraintVertical_bias="0.454" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonIngresar"
         android:layout_width="264dp"
         android:layout_height="52dp"
-        android:background="@drawable/boton_redondeado"
+        android:background="@drawable/boton_redondeado_parcial"
         android:text="@string/btnIngresar"
+        android:textColor="@color/Blanco"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,12 +99,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
+        android:layout_marginBottom="204dp"
         android:text="@string/btnRecuperar"
-        android:textColor="@color/Ciani"
+        android:textColor="@color/Blanco"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.008"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:layout_constraintVertical_bias="0.073" />
@@ -122,18 +124,26 @@
         app:layout_constraintTop_toBottomOf="@+id/ReCuenta_pg3"
         app:layout_constraintVertical_bias="0.441" />
 
+
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tvRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
         android:text="@string/btnRegistrar"
         android:textColor="@color/Ciani"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.039"
-        app:layout_constraintStart_toEndOf="@+id/txtSinCuenta_pg3"
-        app:layout_constraintTop_toBottomOf="@+id/ReCuenta_pg3"
-        app:layout_constraintVertical_bias="0.739" />
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.854" />
 
     <TextView
         android:id="@+id/txtLogin_pg3"
@@ -150,32 +160,33 @@
         app:layout_constraintTop_toBottomOf="@+id/NameApp_pg3" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:background="@drawable/boton_google"
-        android:padding="8dp"
         android:gravity="center"
         android:orientation="horizontal"
+        android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ReCuenta_pg3">
+        app:layout_constraintTop_toBottomOf="@+id/ReCuenta_pg3"
+        app:layout_constraintVertical_bias="0.215">
 
         <ImageView
             android:layout_width="16dp"
             android:layout_height="16dp"
-            android:src="@drawable/google"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/google" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btnGoogle"
             android:textColor="@color/Negro"
-            android:textSize="16sp"/>
+            android:textSize="16sp" />
     </LinearLayout>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

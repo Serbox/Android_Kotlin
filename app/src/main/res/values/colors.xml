@@ -5,5 +5,10 @@
     <color name="Ciani">#00FFFF</color>
     <color name="Gris">#CCCCCC</color>
     <color name="Verde">#B3F306</color>
+    <color name="Morado_parcial">#793DA8</color>
+    <color name="azul_claro_parcial">#50C5E9</color>
+    <color name="azul_oscuro_parcial">#3E34C1</color>
+
+
 
 </resources>

@@ -1,27 +1,58 @@
 package com.example.taller2
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
-import androidx.activity.enableEdgeToEdge
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+        Log.d("MainActivity", "onCreate ejecutado")
 
-        //referencia del btn por id
         val btnRedi = findViewById<Button>(R.id.btnComienza_pg2)
+        val tvRegistrar = findViewById<TextView>(R.id.textoregistar_main)
 
-        //enviar a la actividad 3
-        btnRedi.setOnClickListener{
-            //intent
+        tvRegistrar.setOnClickListener {
+            Log.d("MainActivity", "Navegando a RegisterActivity")
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnRedi.setOnClickListener {
+            Log.d("MainActivity", "Navegando a LoginActivity")
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d("MainActivity", "onStart ejecutado")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("MainActivity", "onResume ejecutado")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("MainActivity", "onPause ejecutado")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d("MainActivity", "onStop ejecutado")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("MainActivity", "onDestroy ejecutado")
     }
 }

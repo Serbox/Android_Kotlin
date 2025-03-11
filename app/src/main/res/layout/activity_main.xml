@@ -5,7 +5,7 @@
     android:id="@+id/pg_principal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Negro"
+    android:background="@color/Morado_parcial"
     tools:context=".MainActivity">
 
     <ImageView
@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.066"
-        app:srcCompat="@drawable/_logo1" />
+        app:srcCompat="@drawable/parcial_logo" />
 
     <TextView
         android:id="@+id/nameApp_pg2"
@@ -48,19 +48,18 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameApp_pg2"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="0.117" />
 
     <Button
         android:id="@+id/btnComienza_pg2"
         android:layout_width="231dp"
         android:layout_height="54dp"
-        android:background="@drawable/boton_redondeado"
+        android:background="@drawable/boton_redondeado_parcial"
 
         android:text="@string/btnComenzar"
-        android:textColor="@color/Negro"
+        android:textColor="@color/Blanco"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -71,11 +70,11 @@
         app:rippleColor="@color/Blanco" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textoregistar_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnRegistrar"
-        android:textColor="@color/Ciani"
+        android:textColor="@color/Blanco"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

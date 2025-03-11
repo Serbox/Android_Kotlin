@@ -22,9 +22,17 @@
         </activity>
 
         <!-- Main Activity -->
-        <activity android:name=".MainActivity" android:exported="true"/>
+        <activity android:name=".MainActivity" android:exported="false"/>
         <!-- Login Activity-->
-        <activity android:name=".LoginActivity" android:exported="true"/>
+        <activity android:name=".LoginActivity" android:exported="false"/>
+        <!-- Resgister Activity-->
+        <activity android:name=".RegisterActivity" android:exported="false"/>
+        <!-- Recuperacion Contrasena Activity-->
+        <activity android:name=".RecuperarContrasena" android:exported="false"/>
+        <!-- Profile -->
+        <activity android:name=".Profile" android:exported="false"/>
+        <!-- central -->
+        <activity android:name=".CentralActivity" android:exported="false"/>
 
     </application>
 
