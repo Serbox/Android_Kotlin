@@ -1,4 +1,4 @@
-package com.example.taller2
+package com.example.taller2.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.taller2.R
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")

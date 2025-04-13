@@ -1,4 +1,4 @@
-package com.example.taller2
+package com.example.taller2.activities
 
 import android.os.Bundle
 import android.util.Log
@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.taller2.R
 
 class RecuperarContrasena : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

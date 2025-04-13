@@ -1,8 +1,9 @@
-package com.example.taller2
+package com.example.taller2.activities
 
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.example.taller2.R
 import java.text.SimpleDateFormat
 import java.util.*
 

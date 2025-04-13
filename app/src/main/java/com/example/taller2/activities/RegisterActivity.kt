@@ -1,4 +1,4 @@
-package com.example.taller2
+package com.example.taller2.activities
 
 import android.content.Context
 import android.content.Intent
@@ -11,6 +11,7 @@ import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.taller2.R
 
 class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

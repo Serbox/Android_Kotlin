@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/Morado_parcial"
     android:fillViewport="true"
-    tools:context=".RegisterActivity">
+    tools:context=".activities.RegisterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

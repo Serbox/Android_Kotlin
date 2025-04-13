@@ -9,4 +9,14 @@
     <string name="btnRecuperar">Recupera tu contraseña</string>
     <string name="btnGoogle">Ingresa con Google</string>
     <string name="txtRegistrate">No tienes cuenta?</string>
+    <string name="tienda_virtual">Tienda_virtual</string>
+    <string name="bienvenid">Bienvenid@</string>
+    <string name="inicio">Inicio</string>
+    <string name="productos">productos</string>
+    <string name="open_drawer">Menu abierto</string>
+    <string name="cloce_drawer">Menu cerrado\n\n</string>
+    <string name="carrito">CARRITO\n</string>
+    <string name="perfil">PERFIL\n</string>
+    <string name="categorias">CATEGORIAS\n</string>
+    <string name="editar_perfil">DEPORTES\n</string>
 </resources>

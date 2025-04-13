@@ -1,4 +1,4 @@
-package com.example.taller2
+package com.example.taller2.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.os.Handler
 import android.os.Looper
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.example.taller2.R
 
 
 class Splash_Activity : AppCompatActivity() {
@@ -20,7 +21,7 @@ class Splash_Activity : AppCompatActivity() {
 
         //configurar el temporizador de redireccion
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         },SPLASH_TIME_OUT)
