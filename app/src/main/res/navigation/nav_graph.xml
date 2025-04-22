@@ -7,12 +7,26 @@
         android:id="@+id/inicioFragment"
         android:name="com.example.taller2.fragments.InicioFragment"
         android:label="@string/inicio">
-        <action
-            android:id="@+id/action_inicioFragment_to_productosFragment"
-            app:destination="@id/productosFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.taller2.fragments.PerfilFragment"
+        android:label="Perfil">
+
     </fragment>
 
     <fragment
+        android:id="@+id/tvHistorial"
+        android:name="com.example.taller2.fragments.HistorialFragment"
+        android:label="@string/historial" />
+
+    <fragment
+        android:id="@+id/tvanalisis"
+        android:name="com.example.taller2.fragments.AnalisisFragment"
+        android:label="@string/analisis" />
+
+    <!--<fragment
         android:id="@+id/productosFragment"
         android:name="com.example.taller2.fragments.ProductosFragment"
         android:label="@string/productos" />
@@ -26,16 +40,7 @@
             app:destination="@id/productosFragment" />
     </fragment>
 
-    <fragment
-        android:id="@+id/perfilFragment"
-        android:name="com.example.taller2.fragments.PerfilFragment"
-        android:label="Perfil">
-        <action
-            android:id="@+id/action_perfilFragment_to_editarPerfilFragment"
-            app:destination="@id/editarPerfilFragment"
-            app:popUpTo="@id/perfilFragment"
-            app:popUpToInclusive="true" />
-    </fragment>
+
 
 
     <fragment
@@ -93,6 +98,6 @@
     <fragment
         android:id="@+id/electronicaFragment"
         android:name="com.example.taller2.fragments.c5"
-        android:label="Electrónica" />
+        android:label="Electrónica" /> -->
 
 </navigation>

@@ -52,7 +52,8 @@ class IndexActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.inicioFragment,
-                R.id.productosFragment
+//                R.id.productosFragment
+//                R.id.analisis
             ),
             drawerLayout
         )

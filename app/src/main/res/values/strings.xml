@@ -19,4 +19,6 @@
     <string name="perfil">PERFIL\n</string>
     <string name="categorias">CATEGORIAS\n</string>
     <string name="editar_perfil">DEPORTES\n</string>
+    <string name="historial">historial</string>
+    <string name="analisis">\n</string>
 </resources>

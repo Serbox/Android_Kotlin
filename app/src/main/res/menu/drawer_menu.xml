@@ -6,14 +6,22 @@
             android:id="@+id/inicioFragment"
             android:title="@string/inicio" />
         <item
+            android:id="@+id/tvHistorial"
+            android:title="@string/historial" />
+        <item
+            android:id="@+id/perfilFragment"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/analisisFragment"
+            android:title="@string/analisis" />
+<!--
+        <item
             android:id="@+id/productosFragment"
             android:title="@string/productos" />
         <item
             android:id="@+id/carritoFragment"
             android:title="@string/carrito" />
-        <item
-            android:id="@+id/perfilFragment"
-            android:title="@string/perfil" />
+
         <item
             android:id="@+id/CategoriasFragment"
             android:title="@string/categorias" />
@@ -34,6 +42,6 @@
             android:title="• Para Personal" />
         <item
             android:id="@+id/editarPerfilFragment"
-            android:title="@string/editar_perfil" />
+            android:title="@string/editar_perfil" /> -->
     </group>
 </menu>
